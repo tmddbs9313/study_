@@ -27,7 +27,7 @@ public class Application01 {
             //정상적으로 구매가 가능한 경우
             et.checkEnoughMoney(10000,50000);
 
-
+//
         }catch (Exception e){
             throw new RuntimeException(e);
 
