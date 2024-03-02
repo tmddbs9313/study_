@@ -1,4 +1,4 @@
-package com.ogiraffers.section02.stream;
+package com.ohgiraffers.section02.stream;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -24,7 +24,7 @@ public class Application02 {
 //            while ((value = fr.read()) != -1){
 //                System.out.println((char)value);
 //            }
-            char[] carr = new char[(int)new File("src/main/java.ogiraffers/section02/stream/testReader.txt").length()];
+            char[] carr = new char[(int)new File("src/main/java.ohgiraffers/section02/stream/testReader.txt").length()];
 
             fr.read(carr);
 

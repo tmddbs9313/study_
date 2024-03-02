@@ -1,4 +1,4 @@
-package com.ogiraffers.section02.stream;
+package com.ohgiraffers.section02.stream;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -46,7 +46,7 @@ public class Application01 {
             /*필기. 한글 한 글자에 3byte 이기 때문에 1byte 씩 값을 읽어오면 글자가 깨진다.*/
 
             //File 클래스의 length()로 파일의 길이를 알 수 잇다.
-            System.out.println("파일의 길이: " + new File("src/main/java.com/ogiraffers/section02/stream/testInputStream.txt").length());
+            System.out.println("파일의 길이: " + new File("src/main/java.com/ohgiraffers/section02/stream/testInputStream.txt").length());
 
 
         } catch (FileNotFoundException e) {

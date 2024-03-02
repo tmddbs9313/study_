@@ -1,4 +1,4 @@
-package com.ogiraffers.section02.stream;
+package com.ohgiraffers.section02.stream;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -15,12 +15,26 @@ public class Application04 {
         FileWriter fw =null;
 
         try {
-            fw = new FileWriter("src/main/java/com/ogiraffers/section02/stream/testWriter.txt");
+            fw = new FileWriter("src/main/java/com/ohgiraffers/section02/stream/testWriter.txt");
 
             fw.write(97);
 
+            fw.write('A');
+
+            fw.write(new char[] {'a','p','p','l','e'});
+
+            fw.write("하이미디어");
+
         } catch (IOException e) {
             throw new RuntimeException(e);
+        }finally {
+            if(fw != null) {
+               try {
+                   fw.close();
+               }catch (IOException e) {
+                   throw new RuntimeException(e);
+               }
+            }
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.ogiraffers.section01.file;
+package com.ohgiraffers.section01.file;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,7 +11,7 @@ public class Application {
         *  대상 파일에 대한 정보로 인스턴스를 생성하고
         *  파일의 생성, 삭제  등등의 처리를 수행하는 기능을 제공하고 있다,.*/
 
-        File file = new File("src/main/java/com/ogiraffers/section01/file/test.txt");
+        File file = new File("src/main/java/com/ohgiraffers/section01/file/test.txt");
 
         try {
             boolean createSuccess = file.createNewFile();

@@ -7,6 +7,7 @@
     <mapping directory="$PROJECT_DIR$/chap06-class-and-object-lecture-source" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/chap08-inheritance-lecture-source" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/chap09-polymorphism-lecture-sorce" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chap13-exception-lecture-source" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/chapter02-operator-lecture-source" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/chapter03-method-and-api-lecture-source" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/chapter04-control-flow-lecture-source" vcs="Git" />

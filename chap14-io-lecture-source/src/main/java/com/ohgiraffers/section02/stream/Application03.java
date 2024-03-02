@@ -1,4 +1,4 @@
-package com.ogiraffers.section02.stream;
+package com.ohgiraffers.section02.stream;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -16,7 +16,7 @@ public class Application03 {
         FileOutputStream fout = null;
 
         try {
-            fout = new FileOutputStream("src/main/java/com/ogiraffers/section02/stream/testOutPutStream.txt");
+            fout = new FileOutputStream("src/main/java/com/ohgiraffers/section02/stream/testOutPutStream.txt");
 
             fout.write(97);
 
